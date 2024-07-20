@@ -17,7 +17,7 @@ const Modal_Form = () => {
                 friendEmail: friendEmail
             });
             console.log(formData);
-            const res = await fetch('https://accredian-backend-task-vixj.onrender.com/', {
+            const res = await fetch('https://accredian-backend-task-vixj.onrender.com/refer', {
                 method: 'POST',
                 headers: {
                     'Content-type': 'application/json'
