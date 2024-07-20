@@ -34,9 +34,6 @@ const Modal_Form = () => {
 
     return (
         <div>
-            {/* Open the modal using document.getElementById('ID').showModal() method */}
-            {/* <button ></button> */}
-
             <button className="btn btn-primary" onClick={() => document.getElementById('my_modal_2').showModal()}>Refer Now</button>
             <dialog id="my_modal_2" className="modal">
                 <div className="modal-box w-11/12 max-w-5xl">
